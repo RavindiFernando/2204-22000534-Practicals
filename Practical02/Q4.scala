@@ -19,7 +19,7 @@ object TheaterProfitCalculator {
   }
 
   def findBestTicketPrice(): Int = {
-    (10 to 20 by 5).maxBy(calculateProfit)
+    (0 to 100 by 5).maxBy(calculateProfit)
   }
 
   def main(args: Array[String]): Unit = {
